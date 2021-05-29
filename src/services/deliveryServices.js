@@ -29,3 +29,13 @@ export const getCardapio = () => {
         }
     )
 }
+
+//função para realizar o cadastro do cliente na API
+export const postCliente = (cliente) => {
+    return axios.post(getApiUrl() + '/api/cliente', cliente)
+        .then(
+            response => {
+                return response.data;
+            }
+        )
+}

@@ -1,7 +1,8 @@
 import React from 'react';
+import Register from '../components/Register';
 
 const Account =() => (
-    <div>Account!</div>
+    <Register/>
 )
 
 export default Account;

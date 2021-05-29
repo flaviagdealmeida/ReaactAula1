@@ -2,8 +2,9 @@ import React from 'react';
 import { Row, Navbar } from 'react-materialize';
 import { NavLink } from 'react-router-dom';
 
-class Header extends React.Component{
-    render(){
+//class Header extends React.Component{
+export default function Header(){
+ //   render(){ apenas para classes
         return(
             <Row>
                 <Navbar className="deep-orange darken-2">
@@ -15,5 +16,5 @@ class Header extends React.Component{
             </Row>
         )
     }
-}
-export default Header;
+//}
+//export default Header; apenas para classes
